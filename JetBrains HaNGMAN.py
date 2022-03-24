@@ -3,6 +3,7 @@ import random
 while True:
     menu = input('Type "play" to play the game, "exit" to quit: ')
     if menu == "play":
+    if menu == 'play':
         chosen = list(random.choice(['python', 'java', 'kotlin', 'javascript']))
         print('H A N G M A N')
         hidden = list('-' * len(chosen))
